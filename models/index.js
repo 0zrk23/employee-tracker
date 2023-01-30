@@ -26,7 +26,7 @@ Employee.hasMany(Employee, {
 })
 
 Employee.belongsTo(Employee, {
-    foreignKey: 'employee_id',
+    foreignKey: 'manager_id',
     onDelete: 'CASCADE'
 })
 
