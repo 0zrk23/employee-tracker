@@ -1,0 +1,26 @@
+{
+    "name": "Employee-Tracker",
+    "version": "1.0.0",
+    "description": "This CLI app is used to query the business database and guides the user to view or change it",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "seed": "node seeds/seed.js"
+    },
+    "keywords": [],
+    "author": {
+        "dev": "Gustavo Carrillo"
+    },
+    "license": "MIT License",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "inquirer": "^8.2.4",
+        "mysql2": "^2.2.1",
+        "sequelize": "^6.3.5",
+        "console.table": "^0.10.0"
+    },
+    "devDependencies": {
+        "jest": "^29.3.1"
+    }
+}
