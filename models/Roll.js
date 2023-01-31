@@ -10,6 +10,7 @@ Roll.init(
             allowNull: false,
             primaryKey: true,
             autoIncrement: true,
+            unique: true
         },
         title: {
             type: DataTypes.STRING,
