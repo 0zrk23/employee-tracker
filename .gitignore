@@ -1,3 +1,7 @@
+#startup files
+config/dbInit.sh
+config/seedn.sh
+
 # Logs
 logs
 *.log
