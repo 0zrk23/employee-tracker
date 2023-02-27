@@ -14,7 +14,9 @@ This CLI application is designed to track, manage and take care of employees, ro
 
 ## Usage
 
-The web application will guide you through the different functions of the application by prompting you with different options and questions. Below is a vidoe going over the general use.
+
+
+The web application will guide you through the different functions of the application by prompting you with different options and questions. To start, open the CLI and go into the main directory of the application. Then type in ```npm start```.
 
 ## Credits
 

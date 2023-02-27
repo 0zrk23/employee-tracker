@@ -33,7 +33,7 @@ const Roll = function(){
                 console.log(`The ${name.split('s')[0]} '${match[0].name}' already exists in ${name}!\nPlease try again.`);
                 return;
             }
-            console.log(`INSERT INTO ${name} (${keys}) VALUES (${values});`)
+            // console.log(`INSERT INTO ${name} (${keys}) VALUES (${values});`)
             await db.query(`INSERT INTO ${name} (${keys}) VALUES (${values});`);
             const [data,metaData] = await db.query(`SELECT rolls.id, rolls.title, departments.name as 'department' FROM rolls INNER JOIN departments on rolls.department_id = departments.id`);
             return data;
