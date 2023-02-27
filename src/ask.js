@@ -42,7 +42,7 @@ const getTableInfo = async function(tableName){
         console.log()
         if(re.test(keys[i]) && (keys[i].split('_')[0] !== 'manager') ){
             [relatedTableData,metaData] = await db.query(`SELECT * FROM ${keys[i].split('_')[0]+`s`}`);
-            console.log(relatedTableData);
+            // console.log(relatedTableData);
             question = {
                 type: 'list',
                 name: keys[i].split('_')[0],
@@ -86,7 +86,7 @@ const getTableInfo = async function(tableName){
     // console.log(questions);
     return {
         askInfo: async function (){
-            console.table(tableData);
+            // console.table(tableData);
             console.log('-------------------------------')
             // console.log(questions);
             return await inquirer.prompt(questions);

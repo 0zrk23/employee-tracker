@@ -18,5 +18,5 @@ Created By: Gustavo Carrillo
 `
 
 
-console.log(bigText);
+// console.log(bigText);
 module.exports = bigText;
