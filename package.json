@@ -6,11 +6,12 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node index.js",
-        "seed": "node seeds/seed.js"
+        "dbInit": "bash config/dbInit.sh",
+        "seed": "bash config/seed.sh"
     },
     "keywords": [],
     "author": {
-        "dev": "Gustavo Carrillo"
+        "name": "Gustavo Carrillo"
     },
     "license": "MIT License",
     "dependencies": {
