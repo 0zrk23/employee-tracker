@@ -1,6 +1,6 @@
 # Employee Tracker
 ![MIT License](https://img.shields.io/github/license/0zrk23/readme-creator)
-<p align="center"><img src="https://via.placeholder.com/1794x1080.png?text=Coming+Soon!" alt="Coming Soon" style="box-sizing: border-box; width: 80%;"></p>
+<p align="center"><img src="./assets/images/employee-tracker.png" alt="Employee Tracker App" style="box-sizing: border-box; width: 80%;"></p>
 
 ## Description
 
@@ -14,7 +14,7 @@ This CLI application is designed to track, manage and take care of employees, ro
 
 ## Usage
 
-
+[how -to-use-employee-tracker.webm](https://user-images.githubusercontent.com/115580058/221563049-cd51951f-fc78-48a5-b48f-989d3916fba6.webm)
 
 The web application will guide you through the different functions of the application by prompting you with different options and questions. To start, open the CLI and go into the main directory of the application. Then type in ```npm start```.
 
